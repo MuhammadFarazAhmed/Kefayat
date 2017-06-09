@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_cover_height"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/nophoto"
+        android:scaleType="fitCenter"
+
+         />
+
+    <TextView
+        android:text="hello"
+        android:gravity="center"
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail"
+        android:paddingLeft="@dimen/album_title_padding"
+        android:paddingRight="@dimen/album_title_padding"
+        android:paddingTop="@dimen/album_title_padding"
+        android:textSize="@dimen/album_title"
+        />
+
+    <TextView
+        android:text="hello"
+        android:gravity="center"
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company"
+        android:paddingBottom="@dimen/songs_count_padding_bottom"
+        android:paddingLeft="@dimen/album_title_padding"
+        android:paddingRight="@dimen/album_title_padding"
+        android:textSize="@dimen/songs_count" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_name"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:paddingLeft="@dimen/album_title_padding"
+            android:paddingRight="@dimen/album_title_padding"
+            android:textSize="@dimen/songs_count"
+            android:text="hello"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

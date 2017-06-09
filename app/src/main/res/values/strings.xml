@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kefayat</string>
+    <string name="home_toolbar_text">Home</string>
+    <string name="home_explore_text">Explore</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="desc_text">This is an overview of this product and you will see the whole product .This is an overview of this product and you will see the whole product .
+    This is an overview of this product and you will see the whole product .This is an overview of this product and you will see the whole product .
+    This is an overview of this product and you will see the whole product .</string>
+</resources>
